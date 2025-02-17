@@ -66,14 +66,13 @@ export const HeroSection = () => {
             <div className = "bg-green-500 size-2.5 rounded-full relative">
               <div className = "absolute inset-0 animate-ping bg-green-500 rounded-full"></div>
             </div>
-            <div className = "text-sm font-medium">Avaliable for new work
-            </div>
+            <div className = "text-sm font-medium">Avaliable for new work</div>
         </div>
       </div>
       <div className="max-w-lg mx-auto">
         <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">Building Exceptional User Experience</h1>
         <p className = "mt-4 text-center text-white/60 md:text-lg">
-          I'm a passionate developer graduating in Spring 2025, with a focus on problem-solving, software development, and building efficient, scalable solutions. 
+          I&apos;m a passionate developer graduating in Spring 2025, with a focus on problem-solving, software development, and building efficient, scalable solutions. 
           Explore my projects, skills, and journey as I continue to turn ideas into reality through code
         </p>
       </div>
@@ -86,7 +85,7 @@ export const HeroSection = () => {
         </a>
         <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
           <span>👋</span>
-          <span className="font-semibold">Let's Connect</span>
+          <span className="font-semibold">Let&apos;s Connect</span>
         </button>
       </div>
     </div>
