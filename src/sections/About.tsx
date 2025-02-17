@@ -2,7 +2,9 @@
 import { SectionHeader } from "@/components/SectionHeader";
 import {Card} from "@/components/Card";
 
-import bookImage from "@/assets/images/book-cover.png";
+
+import headShot from "@/assets/images/dos-headshot-1.jpg";
+import headShot2 from "@/assets/images/dos-headshot-2.jpg";
 import Image from "next/image";
 import MAPImage from "@/assets/images/map.jpg";
 import waveMemoji from "@/assets/images/dos-wave.png";
@@ -123,9 +125,9 @@ export const AboutSection = () => {
       <div className = "mt-20 flex flex-col gap-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
           <Card className="h-[320px] md:col-span-2 lg:col-span-1">
-            <CardHeader title="My Reads" description="Explore the books shaping my perspectives."/>
-            <div className = "w-40 mx-auto mt-2 md:mt-0 ">
-              <Image src={bookImage} alt="book" />
+            <CardHeader title="The Face" description="The face behind the code."/>
+            <div className = "w-40 mx-auto mb-2 md:mb-0 ">
+              <Image src={headShot} alt="heashot " className="rounded-full "/>
             </div>
           </Card>
           <Card className="h-[320px] md:col-span-3 lg:col-span-2" >

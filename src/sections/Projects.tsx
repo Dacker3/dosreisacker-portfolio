@@ -1,5 +1,5 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
+import chevronLandingPage from "@/assets/images/Chevron-logo.jpg";
+import netflixLandingPage from "@/assets/images/netlfix-clone.jpg";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 
 import Image from "next/image";
@@ -10,40 +10,28 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Chevron",
+    year: "2024",
+    title: "Network Visibilty Dashboard",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Reduced deployment failures by 30%" },
+      { title: "Improved oversight by 50%" },
+      { title: "Enhanced network efficiency and performance" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "",
+    image: chevronLandingPage,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Personal Project",
+    year: "2025",
+    title: "Netflix Clone",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Implemented user authentication with JWT for secure access" },
+      { title: "Built a dynamic UI with React and Tailwind for a seamless experience" },
+      { title: "Integrated a movie database API to fetch real-time content" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
-  },
-  {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
-    results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
-    ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "",
+    image: netflixLandingPage,
   },
 ];
 
