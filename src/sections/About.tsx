@@ -142,7 +142,7 @@ export const AboutSection = () => {
         </div>
         <div className = "grid grid-cols-1 md:grid-cols-5 gap-8 ">
           <Card className="h-[320px] p-0 flex flex-col md:col-span-3">
-            <CardHeader title="Beyond The Code" description="Explore my interest and hobbies beyound the digital realm." className ="px-6 py-6"/>
+            <CardHeader title="Beyond The Code" description="Explore my interest and hobbies beyond the digital realm." className ="px-6 py-6"/>
             <div className = "relative flex-1 "ref = {constraintRef}>
               {hobbies.map((hobby) => (
                 <motion.div 
