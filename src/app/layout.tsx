@@ -11,8 +11,8 @@ const inter = Inter({subsets: ["latin"], variable: "--font-sans"});
 const calistoga = Calistoga({subsets: ["latin"], variable: "--font-serif", weight: "400"});
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Created with the help of Frontend Tribe",
+  title: "Dosreis Acker",
+  description: "Get a understanding of who I am, as well explore my projects and skills.",
 };
 
 export default function RootLayout({
