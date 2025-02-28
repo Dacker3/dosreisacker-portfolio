@@ -30,7 +30,7 @@ const portfolioProjects = [
       { title: "Built a dynamic UI with React and Tailwind for a seamless experience" },
       { title: "Integrated a movie database API to fetch real-time content" },
     ],
-    link: "",
+    link: "https://mern-netflix-sample.onrender.com",
     image: netflixLandingPage,
   },
 ];
