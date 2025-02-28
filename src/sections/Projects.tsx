@@ -24,7 +24,7 @@ const portfolioProjects = [
   {
     company: "Personal Project",
     year: "2025",
-    title: "Netflix Clone",
+    title: "MERN Netflix Sample",
     results: [
       { title: "Implemented user authentication with JWT for secure access" },
       { title: "Built a dynamic UI with React and Tailwind for a seamless experience" },
